@@ -3,6 +3,7 @@ import Navbar from "./navbar";
 import Jumbotron from "./jumbotron";
 import Cards from "./cards";
 import Footer from "./footer";
+import Carousel from "./carousel";
 
 //create your first component
 const Home = () => {
@@ -32,6 +33,7 @@ const Home = () => {
           }
         />
       </div>
+      <Carousel/>
       <Footer />
     </div>
   );
